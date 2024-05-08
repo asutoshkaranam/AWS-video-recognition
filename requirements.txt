@@ -1,0 +1,9 @@
+boto3
+numpy
+torch
+torchvision
+torchaudio
+Pillow
+imutils
+opencv-python
+facenet-pytorch
