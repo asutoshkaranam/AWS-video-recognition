@@ -1,1 +1,3 @@
 # AWS-video-recognition
+
+Developed a highly scalable and cost-effective video analysis application leveraging AWS Lambda and other serverless services. Implemented a multi-stage pipeline consisting of a pair of Lambda functions that split videos into frames, detected and extracted faces using OpenCV and ResNet models, and stored the recognized faces in an S3 bucket. Optimized the Docker image size for the face recognition function by utilizing techniques like multi-stage builds and lightweight base images. Evaluated the application's performance using automated testing, achieving end-to-end latency under 300 seconds for processing 100 videos concurrently. Ensured secure access by creating an IAM user with granular permissions for S3, Lambda, and CloudWatch.
